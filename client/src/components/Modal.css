@@ -1,0 +1,94 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent !important;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    
+  }
+  
+  .modalContainer {
+    width: 600px;
+    height: auto;
+    border-radius: 12px;
+    background-color: #373b69;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    z-index: 10000000 !important;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    color: #373b69;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: #000;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .overviewModal {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    color:#fff
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  .realeaseDate{
+
+    color: #fff;
+
+  }
+  .modal_img{
+
+    size: 4px;
+    width: 200px;
+    height: auto;
+
+
+  }
+  .title_modal{
+
+    color: #fff;
+
+
+  }
